@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SS test Suite" parallel="false">
+
+   <listeners>
+       <listener class-name="com.screenshot.ListenerTest" />
+   </listeners>
+
+   <test name="SS Automation Test ">
+       <classes>
+           <class name="com.screenshot.CaptureScreenshot" />
+       </classes>
+   </test>
+
+</suite>

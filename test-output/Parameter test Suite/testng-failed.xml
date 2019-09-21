@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameter test Suite]">
+  <parameter name="password" value="avula@123"/>
+  <parameter name="emailid" value="nageswarao328@gmail.com"/>
+  <parameter name="url" value="https://gmail.com"/>
+  <test thread-count="5" name="Parameter Test (failed)">
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="gmailLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- Parameter Test (failed) -->
+</suite> <!-- Failed suite [Parameter test Suite] -->
